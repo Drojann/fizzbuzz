@@ -1,9 +1,9 @@
-const Reader = require ('../../lib/utils/Reader')
+const Reader = require ("../../lib/utils/Reader");
 
 describe("Reading json file", () => {
-    test('show users object', () => {
+    test("show users object", () => {
 
-      const explorers = Reader.readJsonFile('explorers.json')
-      console.log(explorers)
+        const explorers = Reader.readJsonFile("explorers.json");
+        console.log(explorers);
     });
-})
+});

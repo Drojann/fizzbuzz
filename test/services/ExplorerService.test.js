@@ -19,7 +19,7 @@ describe("testing explorer service", () => {const explorers = Reader.readJsonFil
 
     test("get usernames by mission", () => {
 
-        const usernameInMission = ExplorerService.getExplorersUserNameByMission(explorers, "node");
+        const usernameInMission = ExplorerService.getExplorersUsernameByMission(explorers, "node");
         expect(usernameInMission).toContain("ajolonauta15");
         console.log(usernameInMission);
     });  
